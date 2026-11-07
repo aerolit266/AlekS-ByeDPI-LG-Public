@@ -1,15 +1,9 @@
-# AlekS ByeDPI for LG webOS — Public 0.6.32
+# AlekS ByeDPI 0.6.34 Diagnostic R327 — experimental branch
 
-**[Русская инструкция](README_RU.md) · [English README](README_EN.md)**
+**This branch is an opt-in diagnostic beta, NOT the verified public main release.**
 
-A privacy-reduced, binary-only public **beta** build for rooted LG webOS televisions.
+[Русская инструкция](DIAGNOSTIC_R327_RU.md) | [English instructions](DIAGNOSTIC_R327_EN.md) | [Main (public beta 0.6.32)](https://github.com/aerolit266/AlekS-ByeDPI-LG-Public/tree/main)
 
-- Includes R656 local DNS/SNI controller, R296 Cobalt DNS late-binding, automatic private LAN IPv4 detection and ARMv7/ARM64 binaries.
-- Removes embedded private VPS addresses and all optional telemetry code.
-- **No hardware playback verification yet for this specific 0.6.32 build.** The underlying private 0.6.31 worked on the developer's hall TV; this is not the same installed binary.
-- Root + Homebrew Channel are required. No automatic boot hook is installed.
-- All package checksums are in [SHA256SUMS.txt](SHA256SUMS.txt).
+R656 + R296 unchanged. Adds local TLS/SOCKS/DNS error counters and bounded Cloudflare/Google DNS fallback, without telemetry or private VPS addresses. Root + Homebrew required. **Actual neighbor playback not yet verified.**
 
-The distribution archive contains inspectable JavaScript and shell scripts. It is not proof against reverse engineering; only the sanitized public edition is intended for sharing.
-
-Read the [release notes](RELEASE_NOTES.md), [security policy](SECURITY.md), and [third-party notices](THIRD_PARTY_NOTICES.md) before installation.
+Download the signed-by-hash (not cryptographically signed) IPK from this branch or [our isolated website test feed](https://gamefree24.ru/byedpi-lg/diagnostic-r327/repository.json). Check SHA256 before installing.

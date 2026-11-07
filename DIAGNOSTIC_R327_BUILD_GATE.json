@@ -1,0 +1,18 @@
+{
+  "version": "0.6.34",
+  "purpose": "neighbor isolated opt-in diagnostic and bounded DNS fallback",
+  "sha256": "4ced7a3ba110cfd1a3aa690b105173ed2fcc79601bd9a7345a5bc9bd994dedf4",
+  "size": 1192662,
+  "changed_files": [
+    "usr/palm/applications/com.gamefree24.byedpi/appinfo.json",
+    "usr/palm/applications/com.gamefree24.byedpi/index.html",
+    "usr/palm/packages/com.gamefree24.byedpi/packageinfo.json",
+    "usr/palm/services/com.gamefree24.byedpi.service/package.json",
+    "usr/palm/services/com.gamefree24.byedpi.service/r636/sni_bridge.js",
+    "usr/palm/services/com.gamefree24.byedpi.service/r636/system_capture.sh"
+  ],
+  "other_unchanged": true,
+  "hardware_test": "NOT_PERFORMED",
+  "main_feed": "UNCHANGED",
+  "hall": "UNCHANGED"
+}

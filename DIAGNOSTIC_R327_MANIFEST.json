@@ -1,0 +1,14 @@
+{
+  "id": "com.gamefree24.byedpi",
+  "version": "0.6.34",
+  "type": "web",
+  "title": "AlekS ByeDPI 0.6.34 Diagnostic",
+  "appDescription": "Отдельная диагностическая бета для LG: R656 + R296, счётчики TLS/SOCKS/DNS, резервный DNS Cloudflare/Google. Не гарантирует исправление TLS-блокировки. Без телеметрии и приватных адресов VPS. Не проверена на LG соседа; основной канал 0.6.33 не изменён. Требуется root/Homebrew и возможность отката.",
+  "iconUri": "https://gamefree24.ru/byedpi-lg/icon.png",
+  "rootRequired": true,
+  "ipkUrl": "https://gamefree24.ru/byedpi-lg/diagnostic-r327/com.gamefree24.byedpi_0.6.34_all.ipk",
+  "ipkHash": {
+    "sha256": "4ced7a3ba110cfd1a3aa690b105173ed2fcc79601bd9a7345a5bc9bd994dedf4"
+  },
+  "ipkSize": 1192662
+}
