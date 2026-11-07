@@ -19,3 +19,9 @@ First separate public beta derived from the user-confirmed private 0.6.31 baseli
 **Removed:** two embedded private VPS IP literals, private infrastructure domain exclusion, entire opt-in telemetry module and its launch path. App, package and installer versions are consistently 0.6.32.
 
 **Important:** This exact public build has **not** been hardware-tested. The working private 0.6.31 baseline is untouched. No persistent boot hook is installed. Root and Homebrew privileges are required, and YouTube is not guaranteed to work on every ISP/TV.
+
+## R322 / IPK installer compatibility fix / Исправление установки
+
+**Русский:** исправлена упаковка IPK для старых LG webOS: корректные заголовки ar и даты всех архивных элементов (включая PUBLIC_NOTICE.txt). Нативный движок, R656, R296 и все файлы приложения побайтно сохранены; изменились только метаданные контейнера. Ошибка `-5: ipk verified failed` пока не проверена повторно на соседском телевизоре.
+
+**English:** repackaged IPK using correct ar member headers and timestamps compatible with older LG webOS; fixed the single 1970 timestamp in PUBLIC_NOTICE.txt. The native engine, R656, R296, and file contents are unchanged. The `-5: ipk verified failed` fix still needs validation on a physical TV.

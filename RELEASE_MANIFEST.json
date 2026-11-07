@@ -5,13 +5,15 @@
   "date": "2026-11-07",
   "channel": "beta",
   "ipk_file": "com.gamefree24.byedpi_0.6.32_all.ipk",
-  "ipk_sha256": "c5d11b27303d99255123a3c599ffa5c3039613fd277e88efb770d98c0cad87fe",
-  "ipk_size_bytes": 1191950,
+  "ipk_sha256": "7437c5f8ecbd47115101bbbd7f0a31c2664ac4b0f3841f969648c22ea50da666",
+  "ipk_size_bytes": 1191956,
   "real_tv_0_6_32_test": "not yet",
   "root_required": true,
   "telemetry": "disabled/not bundled",
   "external_proxy_servers": "not bundled",
   "built_in_lan_ip": "none, runtime automatic",
   "code_license": "binary notice and third-party notices",
-  "signature": "none, use SHA256 integrity check"
+  "signature": "none, use SHA256 integrity check",
+  "packaging_fix": "R322: historical webOS IPK verifier ar header and timestamp compatibility; contents unchanged",
+  "physical_install_verification": "NOT_YET_VERIFIED"
 }
