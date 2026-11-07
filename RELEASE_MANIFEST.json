@@ -1,0 +1,17 @@
+{
+  "name": "AlekS ByeDPI for LG webOS",
+  "release": "0.6.32-public-beta",
+  "version": "0.6.32",
+  "date": "2026-11-07",
+  "channel": "beta",
+  "ipk_file": "com.gamefree24.byedpi_0.6.32_all.ipk",
+  "ipk_sha256": "c5d11b27303d99255123a3c599ffa5c3039613fd277e88efb770d98c0cad87fe",
+  "ipk_size_bytes": 1191950,
+  "real_tv_0_6_32_test": "not yet",
+  "root_required": true,
+  "telemetry": "disabled/not bundled",
+  "external_proxy_servers": "not bundled",
+  "built_in_lan_ip": "none, runtime automatic",
+  "code_license": "binary notice and third-party notices",
+  "signature": "none, use SHA256 integrity check"
+}
